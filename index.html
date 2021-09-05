@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UNO Mavericks</title>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+          }
+        .header{
+            width: 100%;
+            min-height: 100vh;    
+            position: relative;
+            background-image: linear-gradient(rgba(2, 7, 29, 0.7),rgba(7, 10, 26, 0.7)),url(uno_background.jpg);
+            background-size:cover;
+            background-position:center;    
+        }
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav img {
+            width: 70px;
+            height: 70px;
+        }
+        .navigation-links {
+            flex: 1;
+            text-align: right;
+        }
+        .navigation-links ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .navigation-links ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .navigation-links ul li::after{
+            content: '';
+            width: 0%;    
+            height: 3px;
+            background:salmon;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .navigation-links ul li:hover::after {
+            width: 100%;
+        }
+        .text{
+            width: 90%;
+            color:snow;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .text a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    </style>        
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="uno_logo.png"></a>
+                <div class="navigation-links">
+                <ul>
+                    <li><a href ="index.html">HOME</a></li>
+                </ul>
+                </div>
+            </nav>
+        
+            <div class="text">
+                <h1>Hello this is Navneetha !!</h1>
+                <p>I have built this website as part of the ISQA 3900 - Web Application Development
+                    Activity 2 Assignment</p>
+            </div>    
+        </section>
+        
+    </body>
+</html>
