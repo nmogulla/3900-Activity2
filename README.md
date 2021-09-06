@@ -5,6 +5,10 @@ To develop the web page I have used HTML, External CSS.
 
 The website basically has 3 pages i.e., HOME, ABOUT ME and MY UNIVERSITY.
 
+Steps for using the website:
+
+Clone the repo and then open the index.html file which is presemt in the home directory in a browser.
+
 You can navigate across the pages by using the navigation bar at the top right.
 
 In About Me I have described about myself and added a hyperlink to my linkedIn profile at the bottom.
